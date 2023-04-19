@@ -1,21 +1,26 @@
-import logo from "./logo.svg";
-import backend from "./backend.png";
-import creator from "./creator.png";
-import mobile from "./mobile.png";
-import web from "./web.png";
-import github from "./github.png";
-import menu from "./menu.svg";
-import close from "./close.svg";
+import logo from './logo.png'
+import backend from './simbol01.png'
+import creator from './simbol04.png'
+import mobile from './simbol03.png'
+import web from './simbol02.png'
+import artstation from './artstation.png'
+import menu from './menu.svg'
+import close from './close.svg'
 
-import photoshop from "./tech/photoshop.png";
-import blender from "./tech/blender.png";
+import photoshop from './tech/photoshop.png'
+import blender from './tech/blender.png'
 import unity from './tech/unity.png'
 import unreal from './tech/unreal.png'
-import ennandes from './tech/ennandes.png'
+import enanddes from './company/enanddes.png'
+import instagram from './company/instagram.png'
+import substance from './tech/substancepainter.png'
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import castle from './castle.png'
+import sword from './sword.png'
+import foo from './foo.png'
+import ricardo from './ricardo.png'
+import matilde from './matilde.png'
+import jordhan from './jordhan.png'
 
 export {
   logo,
@@ -23,15 +28,20 @@ export {
   creator,
   mobile,
   web,
-  github,
+  artstation,
   menu,
   close,
-  carrent,
-  jobit,
-  tripguide,
+  castle,
+  sword,
+  foo,
   unity,
   unreal,
   blender,
   photoshop,
-  ennandes
-};
+  substance,
+  instagram,
+  enanddes,
+  ricardo,
+  matilde,
+  jordhan
+}
