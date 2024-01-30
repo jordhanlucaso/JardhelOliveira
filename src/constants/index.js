@@ -5,6 +5,9 @@ import {
   web,
   castle,
   sword,
+  dragon,
+  onepiece,
+  underwater,
   foo,
   unity,
   unreal, 
@@ -17,7 +20,7 @@ import {
   jordhan
 } from '../assets'
   
-export const navLinks = [
+const navLinks = [
   {
     id: 'about',
     title: 'About',
@@ -81,7 +84,7 @@ const technologies = [
 const experiences = [
   {
     title: '3D Artist',
-    company_name: 'Ennandes',
+    company_name: 'Enanddes',
     icon: enanddes,
     iconBg: '#383E56',
     date: 'March 2023 - ',
@@ -98,7 +101,7 @@ const testimonials = [
   {
     testimonial:
         'Jardhel is an excelent worker, he still has things to improve to make his art works trully proffesional but you can tell he will get better in no time because he is always working on new things and finding new ways to enhance what he creates. In the end he is already amazing at what he does and will be excelent in no time, trully admirable.',
-    name: 'Ricardo Giranda',
+    name: 'Ricardo Gironda',
     designation: '3D Animator',
     image: ricardo,
   },
@@ -121,26 +124,26 @@ const testimonials = [
   
 const projects = [
   {
-    name: 'Chinese Temple',
+    name: 'Dragon',
     description:
-        'Temple based on asian culture.',
+        'Asian dragon model.',
     tags: [
       {
         name: 'Blender',
         color: 'blue-text-gradient',
       },
       {
-        name: 'QuixelMixer',
+        name: 'SubstancePainter',
         color: 'green-text-gradient',
       }
     ],
-    image: castle,
-    source_code_link: 'https://www.artstation.com/artwork/LR4GvA',
+    image: dragon,
+    source_code_link: 'https://www.artstation.com/artwork/blgNxv',
   },
   {
     name: 'Foo Dog',
     description:
-        'Model of a guardian chinese dog',
+        'Model of a guardian chinese dog.',
     tags: [
       {
         name: 'Blender',
@@ -155,9 +158,9 @@ const projects = [
     source_code_link: 'https://www.artstation.com/artwork/1xNQGX',
   },
   {
-    name: 'Fantasy demonic blande',
+    name: 'Fantasy demonic blade',
     description:
-        '3D model of a Demonic Blade with Eye',
+        '3D model of a Demonic Blade with Eye.',
     tags: [
       {
         name: 'Blender',
@@ -167,6 +170,53 @@ const projects = [
     image: sword,
     source_code_link: 'https://www.artstation.com/artwork/lDGqYk',
   },
+  {
+    name: 'Chinese Temple',
+    description:
+        'Temple based on asian culture.',
+    tags: [
+      {
+        name: 'Blender',
+        color: 'blue-text-gradient',
+      },
+    ],
+    image: castle,
+    source_code_link: 'https://www.artstation.com/artwork/LR4GvA',
+  },
+  {
+    name: 'Wrecked Ship',
+    description:
+        'Wreked Ship in the Deep ocean.',
+    tags: [
+      {
+        name: 'Blender',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'Photoshop',
+        color: 'green-text-gradient',
+      }
+    ],
+    image: underwater,
+    source_code_link: 'https://www.artstation.com/artwork/obJYPL',
+  },
+  {
+    name: 'One Piece Scene',
+    description:
+        'Theory of posible One Piece Final.',
+    tags: [
+      {
+        name: 'Blender',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'Photoshop',
+        color: 'green-text-gradient',
+      }
+    ],
+    image: onepiece,
+    source_code_link: 'https://www.artstation.com/artwork/qeJlBn',
+  },
 ]
   
-export { services, technologies, experiences, testimonials, projects }
+export { services, technologies, experiences, testimonials, projects, navLinks }

@@ -8,10 +8,6 @@ import { slideIn } from '../utils/motion'
 import { artstation } from '../assets'
 import { instagram } from '../assets'
 
-// templateID
-// ServiceID
-// API
-
 const Contact = () => {
   const formRef = useRef()
   const [ form, setForm ] = useState({
@@ -67,7 +63,7 @@ const Contact = () => {
         className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
       >
         <p className={styles.sectionSubText}>Get in touch</p>
-        <h3 className={styles.sectionHeadText}>Contact.</h3>
+        <h3 className={styles.sectionHeadText}>Contact</h3>
 
         <form 
           ref={formRef}

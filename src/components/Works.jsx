@@ -24,7 +24,7 @@ const ProjectCard = ({
           scale: 1,
           speed: 450,
         }}
-        className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
+        className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full cursor-pointer"
       >
         <div className="relative w-full h-[230px]">
           <img
@@ -33,11 +33,10 @@ const ProjectCard = ({
             className="w-full h-full object-cover rounded-2xl"
           />
 
-          <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
-            <div
-              onClick={() => window.open(source_code_link, 'blank')}
-              className="blank-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
-            >
+          <div 
+            className="absolute inset-0 flex justify-end m-3 card-img_hover cursor-pointer"
+            onClick={() => window.open(source_code_link, 'blank')}>
+            <div className="blank-gradient w-10 h-10 rounded-full flex justify-center items-center" >
               <img
                 src={artstation}
                 alt="artstation"
@@ -67,8 +66,7 @@ const Works = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>My projects</p>
-        <h2 className={styles.sectionHeadText}>Projects.</h2>
+        <h2 className={styles.sectionHeadText}>My Projects</h2>
       </motion.div>
 
       <div className="mt-20 flex flex-wrap gap-7">

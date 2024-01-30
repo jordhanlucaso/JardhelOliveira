@@ -17,6 +17,9 @@ import substance from './tech/substancepainter.png'
 
 import castle from './castle.png'
 import sword from './sword.png'
+import dragon from './dragon.png'
+import onepiece from './onepiece.jpg'
+import underwater from './underwater.jpg'
 import foo from './foo.png'
 import ricardo from './ricardo.png'
 import matilde from './matilde.png'
@@ -34,6 +37,9 @@ export {
   castle,
   sword,
   foo,
+  dragon,
+  onepiece,
+  underwater,
   unity,
   unreal,
   blender,

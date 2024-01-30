@@ -13,6 +13,18 @@
   color-scheme: dark;
 }
 
+html {
+  height: -webkit-fill-available;
+}
+
+body {
+  height: -webkit-fill-available;
+}
+
+textarea {
+  resize: none;
+}
+
 .hash-span {
   margin-top: -100px;
   padding-bottom: 100px;
