@@ -1,6 +1,6 @@
 # 3D Designer Portfolio
 
-### Youtube Video: [Project Live Video](https://youtube.com)
+### Youtube Video: [Project Live Video](https://youtu.be/c1FTm0Vp694)
 
 ## Introduction
 
